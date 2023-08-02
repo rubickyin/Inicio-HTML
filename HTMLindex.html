@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo HTML_HOME</title>
+    <link rel="shortcut icon" href="img/favicon_LogoH.png" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <h1>Primera Practica</h1>
+            <ul>
+                <li><a  class="active" href="HTMLindex.html">HOME</a></li>
+                <li><a href="preferencias.html">PREFERENCIAS</a></li>
+                <li><a href="audiovisuales.html">AUDIOVISUALES</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 style="margin: 15px;">Pracicando, como va en el proceso</h2>
+
+    <article class="container">
+        <h2>La primera parte</h2>
+        <img class="image" src="img/fondo.jpg" alt="fondo">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum inventore enim exercitationem. Eligendi enim quisquam magni mollitia, commodi nihil a inventore amet, reprehenderit labore dignissimos, exercitationem nesciunt ad nostrum voluptatem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam, ad sequi, fugiat officia non iste nihil facilis doloremque nostrum nesciunt natus, quia similique quis. Ea sed accusantium alias saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quibusdam unde sed itaque, aliquam placeat impedit, necessitatibus optio nemo aut beatae velit quas odio obcaecati ut odit? Amet, culpa dolor.
+        </p>
+        <img class="image2" src="img/letraLogoN.png" alt="logo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatem quis optio, ducimus architecto nostrum inventore doloribus saepe velit quam ratione, atque consectetur ab animi voluptas! Corporis quos est error? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta nobis sint porro cupiditate, at aspernatur dolore quasi odit aliquam recusandae omnis illo voluptatum tempora fugiat ullam error, sed autem molestiae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi officia, repudiandae delectus labore natus qui eos, ullam, aperiam eaque eveniet vel blanditiis ipsa non iusto numquam a quaerat officiis temporibus?</p>
+    </article>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+    
+</body>
+</html>
